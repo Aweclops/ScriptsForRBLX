@@ -1,7 +1,7 @@
 local tool = Instance.new("Tool")
 tool.Name = "Teleport(Click E)"
 local tclone = tool:Clone()
-tclone.Parent = game.Players.LocalPlayer
+tclone.Parent = game.Players.LocalPlayer.Backpack
 
 local script = Instance.new("LocalScript", tclone)
 local code = Instance.new("Stringvalue",script)
